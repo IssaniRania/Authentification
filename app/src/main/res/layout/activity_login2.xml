@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        android:text="LOGIN"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="146dp"
+        android:layout_height="49dp"
+        android:text="Login"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="110dp"
+        android:layout_height="56dp"
+        android:text="sign up"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+</LinearLayout>
